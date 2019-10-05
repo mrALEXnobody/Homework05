@@ -84,14 +84,6 @@ namespace Task02
             var writer_thread = new Thread(WriterTxt);
             writer_thread.Name = "Поток записи";
             writer_thread.Start(list);
-
-
-
-
-
-
-
-
         }
     }
 }
